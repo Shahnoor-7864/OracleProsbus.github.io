@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar-toggler{
+  background-color:rgb(139, 7, 7) ;
+} 
+.brand{
+    margin-left: 100px;
+}
+.apple a{
+  text-decoration: none;
+}
+footer{
+  background-color: black;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: bold;
+}
+.dex{
+    display: flex;
+}
+.brand h4{
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 5px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.head{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(139, 7, 7);
+}
+.card {
+   
+    border-radius: 10px;
+    border:2px solid red;
+}
+.card :hover{
+    background-color: rgb(173, 16, 16);
+    color:white
+} 
+.card h4{
+    font-size: 25px;
+}
+.client{
+    height:auto;
+    width: 100%;
+}
+.client h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.client h3 {
+    font-size: 34px;
+    font-weight: bold;
+}
+.card img{
+    height: 60px;
+    width: 60px;
+    color: red;
+}
+.mission h2{
+    color: red;
+}
+.cardsss{
+    background-color: black;
+    color: red;
+}
+.card :hover{
+    background-color: rgb(173, 16, 16);
+    color:white
+} 
+.dropdown-menu{
+    background-color: black;
+}
+footer {
+    height: auto;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+}
+.contact{
+    height: 400px;
+    width: 350px;
+}
+.contact h6{
+    font-size: 20px;
+}
+.pages li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+.pages li {
+    margin-top: 0px;
+}
+.pages {
+    margin-left: 170px;
+}
+.ask{
+    color:  rgb(173, 16, 16);
+}
+form {
+    margin-top: 100px;
+}
+.txt {
+    width: 97%;
+    border: 2px solid rgb(173, 16, 16);
+}
+.area {
+    height: 600px;
+    width: 100%;
+}
+.foot{
+    display: flex;
+}
+
+@media (max-width: 664px){
+    .client{
+      height: 1150px;
+    }
+    .foot{
+      display: block;
+    }
+    /*footer{
+      height: 770px;
+    }*/
+  }
+ @media (max-width: 768px) {
+   
+   .card h4{
+     font-size: 15px;
+   }
+ }
+ @media (max-width: 358px) {
+  .block li{ 
+          height: 60px;
+        }
+        .taste {
+          margin-top: 120px;
+        }
+        .taste h1{
+          font-size: 38px;
+        }
+       }
+ @media (max-width:480px){
+ .brand{
+    margin-left: 40px;
+}
+.client{
+    height: 1300px;
+  }
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+.huge{
+    margin-left: 70px;
+    }
+.foot{
+    font-size: 20px;
+    display: block;
+}
+.dex{
+    display: block;
+}
+.icon{
+    margin-left: 130px;
+}
+.contact h6{
+    font-size: 14px;
+    margin-left: 30px;
+}
+.pages{
+    margin-left: 85px;
+   
+}
+.contact h1{
+    margin-left: 40px;
+}
+.contact {
+    margin-bottom: 100px;
+}
+ 
+/*footer {
+    height: 850px;
+}*/
+    } .advan{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)) ,url(images/code.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 80vh;
+       }
+       .ank a{
+          text-decoration: none;
+          color: white;
+       }
+       .ank  {
+         padding-top: 200px;
+       }
+       .consult{
+         height: auto;
+         margin-top: 100px;
+       }
+       .dux{
+         display: flex;
+       }
+       .of{
+         display: flex;
+       }
+       .block{
+         height: 270px;
+        
+       }
+      .block li{
+         border: 2px solid crimson;
+         margin-top: 4px;
+         list-style:none;
+         height: 40px;
+         text-align: left ;
+         background-color:  rgb(139, 7, 7) ;
+       }
+       .block li a{
+         padding: 7px;
+         text-decoration: none;
+         color:  white;
+       } 
+       .taste{
+         margin: 20px;
+       }
+       .taste h3{
+         color: rgb(139, 7, 7);
+       }
+       span{
+         color: black;
+       }
+       .ness li{
+         color: rgb(139, 7, 7);
+       }
+      @media (max-width: 1000px) {
+       .dux{
+         display: block;
+       }
+      }
+      @media (max-width: 1300px) {
+       .block li{
+         height: 50px;
+       }
+      }
+      @media (max-width: 1000px) {
+       .block li{
+         height: 40px;
+       }
+      } 
+    @media (max-width:480px){
+        .brand{
+      margin-left: 40px;
+  }
+  .navbar-brand {
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .main h1{
+    font-size: 40px;
+}
+
+      
+}.apple{
+    display: flex;
+    justify-content: space-between;
+  }.huge li a {
+   text-decoration: none;
+    font-size: 25px;
+   }
+   .huge li {
+  margin-top: 0px;
+   }
+ .huge{
+margin-left: 170px;
+}
+@media (max-width:480px){
+ .huge{
+margin-left: 70px;
+}
+}
+.pepsi{
+  display: flex;
+}
+@media (max-width:480px){
+  .brand{
+margin-left: 40px;
+}
+.navbar-brand {
+font-size: 30px;
+font-weight: bold;
+}
+}
+.fog{
+  height: 300px;
+  width: 350px;
+  margin: 10px;
+}
+@media (max-width:1300px){
+  .fog{
+  height: 340px;
+}
+}@media (max-width:990px){
+  .fog{
+  height: 430px;
+  width: 390px;
+  margin: 7px;
+}
+}@media (max-width:770px){
+  .pepsi{
+    display: block;
+  }
+  .fog{
+  height: 250px;
+  }
+}
+@media (max-width:1000px){
+  .pages {
+margin-left: 60px;
+  }
+  .huge {
+margin-left: 60px;
+  }
+  .foot{
+    display: block;
+  }
+}
+@media (max-width:440px){
+  .fog{
+    height: 300px;
+  width: 320px;
+  }
+}
+@media (max-width:380px){
+  .fog{
+    height: 320px;
+  width: 270px;
+  }
+}
+@media (max-width:340px){
+  .fog{
+    height: 330px;
+  width: 240px;
+  }
+}
+@media (max-width:300px){
+  .brand{
+margin-left: 20px;
+}
+.navbar-brand {
+font-size: 27px;
+font-weight: bold;
+}
+}
+@media (max-width:300px){
+  .main h1{
+font-size: 30px;
+}
+.meen{
+    margin-top: 100px;
+}
+.fog{
+    height: 420px;
+  width: 200px;
+  }
+}
+@media (max-width: 768px) {
+     
+  .card h4{
+    font-size: 15px;
+  }
+}
+.join{
+    display: flex;
+}
+.console img{
+    height: 300px;
+    width: 500px;
+}
+@media (max-width: 990px) {
+    .join{
+        display: block;
+    }
+}
+@media (max-width: 555px) {
+ .console img{
+    height: 300px;
+     width: 400px;
+}
+}
+@media (max-width: 465px) {
+ .console img{
+    height: 250px;
+     width: 300px;
+}
+}
+@media (max-width: 325px) {
+ .console {
+    height: 250px;
+     width: 150px;
+}
+.contact h6{
+
+ margin-left: 15px;
+}
+
+.contact h1{
+ margin-left: 20px;
+}
+}
+@media (max-width: 295px) {
+ 
+.contact h6{
+ margin-left: 10px;
+}
+
+.contact h1{
+ margin-left: 12px;
+}
+.huge{
+margin-left: 40px;
+}
+.pages{
+margin-left: 40px;
+}
+}
